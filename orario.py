@@ -12,7 +12,7 @@ def binf(binario):
 	work = binari[int(binario)].split("|")
 	destinazione = work[0].upper()
 	gestore =  work[1].upper()
-	partenza = work[2]
+	partenza = work[2].upper()
 	numero =work[3] 
 	altreinfo=work[4].upper()
 	return render_template('binari.html',
